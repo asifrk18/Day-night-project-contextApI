@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.notfoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 5px;
+}
+.notfoundcontent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+  align-items: center;
+  width: 100%;
+}
+.lightis {
+  color: #000000;
+  background-color: #ffffff;
+}
+.darkis {
+  color: #ffffff;
+  background-color: #000000;
+}
+.notfoundImg {
+  width: 230px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.para {
+  font-size: 18px;
+  font-family: 'Roboto';
+}

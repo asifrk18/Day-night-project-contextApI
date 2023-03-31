@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.navContainer {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+.theme {
+  width: 40px;
+  cursor: pointer;
+}
+.navoptionCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  list-style-type: none;
+}
+.options {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.style-Link {
+  text-decoration: none;
+}
+
+.navlightis {
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px 3px #dcdcdc;
+}
+
+.navdarkis {
+  color: #ffffff;
+  background-color: #64748b;
+}

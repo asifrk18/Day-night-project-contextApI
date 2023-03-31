@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 5px;
+}
+.aboutcontent {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.aboutImg {
+  width: 80px;
+}
+.about-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.lightis {
+  color: #000000;
+  background-color: #ffffff;
+}
+.darkis {
+  color: #ffffff;
+  background-color: #000000;
+}
